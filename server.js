@@ -93,7 +93,7 @@ app.post("/login", async (req, res) => {
     const passwordIsCorrect = await bcrypt.compare(password, user.hash);
     if (passwordIsCorrect) {
       const frontendUser = {
-        username: user.username,
+        username,
         firstName: user.firstName,
         lastName: user.lastName,
         accessGroups: user.accessGroups,
