@@ -1,0 +1,30 @@
+[
+  {
+    "username": "anonymousUser",
+    "firstName": "Anonymous",
+    "lastName": "User",
+    "hash": "$2b$10$UDGoX9WFZl9Xqgr5lMxPJOxEz4zwnB4B7Bc5XekT1.DOpENfWVMTO",
+    "accessGroups": ["loggedOutUsers"]
+  },
+  {
+    "username": "edward",
+    "firstName": "Edward",
+    "lastName": "Tanguay",
+    "hash": "$2b$10$F1cUfvYpTNblbSZbmUZWGu6/7ZsjNv6RJbW3ddJ9xGEpCPhzhG4fe",
+    "accessGroups": ["loggedInUsers", "administrators"]
+  },
+  {
+    "username": "jason",
+    "firstName": "Jason",
+    "lastName": "Jenkins",
+    "hash": "$2b$10$IQyFgCqxcSUOo1oYLf9zuuenD8nJlQij.Zl/fk1dW8IaKN.cSRssy",
+    "accessGroups": ["loggedInUsers", "jobSeekers"]
+  },
+  {
+    "username": "richter",
+    "firstName": "Henri",
+    "lastName": "Richter",
+    "hash": "$2b$10$fiQGOOayYyP3zIn6S8LyUeJztr4NN/Il6R0WQwW9ECPTgVW5vMTla",
+    "accessGroups": ["loggedInUsers", "companies"]
+  }
+]

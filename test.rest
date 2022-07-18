@@ -1,0 +1,18 @@
+@url = http://localhost:30445
+ 
+## TEST
+GET {{url}}
+ 
+### LOGIN
+POST {{url}}/login
+content-type: application/json
+ 
+{
+    "username": "edward",
+    "password": "edward123"
+}
+ 
+### MAINTAIN LOGIN
+POST {{url}}/maintain-login
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjYyY2ZlNzU2ZTM3NDQyMThkN2NmNWY1NSIsInVzZXJuYW1lIjoiZWR3YXJkIiwiZmlyc3ROYW1lIjoiRWR3YXJkIiwibGFzdE5hbWUiOiJUYW5ndWF5IiwiaGFzaCI6IiQyYiQxMCRGMWNVZnZZcFROYmxiU1pibVVaV0d1Ni83WnNqTnY2UkpiVzNkZEo5eEdFcENQaHpoRzRmZSIsImFjY2Vzc0dyb3VwcyI6WyJsb2dnZWRJblVzZXJzIiwiYWRtaW5pc3RyYXRvcnMiXX0sImlhdCI6MTY1Nzc5NjAyOCwiZXhwIjoxNjU3Nzk2MDQ4fQ.rgKETOTvu63CW66kcZAa5IBUOxXOZ-QiWDXqrDslmbo
